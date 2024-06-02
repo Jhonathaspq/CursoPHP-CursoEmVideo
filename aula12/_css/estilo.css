@@ -8,7 +8,7 @@ body {
 }
 
 div::before {
-    content: " Curso de PHP para Iniciantes - by Gustavo Guanabara ";
+    content: " Curso de PHP - by Jhonathas Queiroz ";
     font: 10pt Arial;
     font-weight: bold;
     color: white;
@@ -43,4 +43,17 @@ a:hover {
 span.foco {
     font-weight: bold;
     color: #7e050c;
+}
+
+.botao{
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: blue;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+    background-color: rgb(212, 212, 221);
+    color: white;
+    transform: scale(1.2)
 }

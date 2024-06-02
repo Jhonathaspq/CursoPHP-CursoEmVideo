@@ -21,14 +21,14 @@
                 break;
             case 7:
             case 8:
-                echo "Descanse, pequeno garfanhoto! ;)";
+                echo "Descanse, pequeno gafanhoto! ;)";
                 break;
             default:
                 echo "Dia da Semana invalido";
         }
 
         ?>
-        <a href="02exercicio.html" class="botao">Voltar</a>
+        <br><a href="02exercicio.html"><button>Voltar</button></a>
     </div>
 </body>
 
